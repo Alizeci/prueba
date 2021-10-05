@@ -5,9 +5,9 @@ import { useState } from 'react';
 
 function App() {
 	const [ tasks, setTasks ] = useState([
-		{ isCompleted: true, taskName: 'learn React' },
-		{ isCompleted: false, taskName: 'learn Hooks' },
-		{ isCompleted: true, taskName: 'learn again!!' }
+		{ isCompleted: true, taskName: 'Learn ARSW' },
+		{ isCompleted: false, taskName: 'learn SPTI' },
+		{ isCompleted: true, taskName: 'learning, here we go!' }
 	]);
 
 	const handleTaskChange = (i) => () => {
